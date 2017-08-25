@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CreditCardView</string>
+
+    <string name="card_cvv">CVV</string>
+    <string name="card_expiry_date">Expiry Date</string>
+    <string name="card_holder_name">Holder Name</string>
+    <string name="card_number">Card Number</string>
+
+    <string name="error_invalid_card">Credit card information is not valid please check</string>
+    <string name="error_invalid_month">Invalid Month</string>
+    <string name="error_invalid_year">Invalid Year</string>
+
+    <string name="card_edit_title">Define Card</string>
+    <string name="card_edit_done">Done</string>
+
+    <string name="alert_title_error">Error</string>
+</resources>

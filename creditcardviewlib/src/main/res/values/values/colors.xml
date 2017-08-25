@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#28ffffff</color>
+    <color name="colorPrimaryDark">#151617</color>
+    <color name="colorAccent">#fcb300</color>
+
+    <color name="black">#000000</color>
+
+    <color name="white">#ffffff</color>
+    <color name="trans_white_xsmall">#c8ffffff</color>
+    <color name="trans_white_small">#96FFFFFF</color>
+    <color name="trans_white_medium">#64ffffff</color>
+    <color name="trans_white_large">#32ffffff</color>
+    <color name="trans_white_xlarge">#28ffffff</color>
+
+    <color name="alert_error">#e94141</color>
+</resources>

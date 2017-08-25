@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_small"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_small"
+    app:cardBackgroundColor="@color/colorCardEditCard"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="0dp"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="@dimen/padding_medium"
+    tools:context=".cardEdit.inputs.impl.CardExpiryDateFragment">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.srfaytkn.android.maskededittextlib.MaskedEditText
+            android:id="@+id/input_card_expiry_date"
+            style="@style/TextStyle.Input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/card_expiry_date"
+            android:imeOptions="actionDone"
+            android:inputType="numberDecimal"
+            android:maxLines="1"
+            app:allowedChars="1234567890"
+            app:completeWith="X"
+            app:mask="##/##" />
+
+    </android.support.design.widget.TextInputLayout>
+</android.support.v7.widget.CardView>
+

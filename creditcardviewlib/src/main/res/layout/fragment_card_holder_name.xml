@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_small"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_small"
+    app:cardBackgroundColor="@color/colorCardEditCard"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="0dp"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="@dimen/padding_medium"
+    tools:context=".cardEdit.inputs.impl.CardHolderNameFragment">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_card_holder_name"
+            style="@style/TextStyle.Input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/card_holder_name"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:maxLength="35"
+            android:maxLines="1" />
+    </android.support.design.widget.TextInputLayout>
+</android.support.v7.widget.CardView>
+

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CreditCardView</string>
+
+    <string name="card_cvv">CVV</string>
+    <string name="card_expiry_date">Son Kullanım</string>
+    <string name="card_holder_name">Kart Sahibi</string>
+    <string name="card_number">Kart Numarası</string>
+
+    <string name="error_invalid_card">Kart bilgileri geçerli değil lütfen tekrar kontrol ediniz</string>
+    <string name="error_invalid_month">Geçersiz Ay</string>
+    <string name="error_invalid_year">Geçersiz Yıl</string>
+
+    <string name="card_edit_title">Kart Tanımla</string>
+    <string name="card_edit_done">Tamamla</string>
+
+    <string name="alert_title_error">Hata</string>
+</resources>
