@@ -9,7 +9,7 @@ android {
         minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
-        versionName '1.0.0'
+        versionName '1.0.1'
 
         vectorDrawables.useSupportLibrary = true
     }
@@ -30,5 +30,5 @@ dependencies {
     compile 'com.android.support:support-v4:26.0.1'
 
     compile 'com.tapadoo.android:alerter:2.0.0'
-    compile 'com.github.srfaytkn:masked-edit-text:1.0.1'
+    compile 'com.github.srfaytkn:masked-edit-text:1.0.2'
 }

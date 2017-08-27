@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
-            app:srcCompat="@drawable/ic_world"/>
+            app:srcCompat="@drawable/ic_world" />
     </RelativeLayout>
 
     <View
@@ -71,6 +71,7 @@
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textSize="20sp"
+        app:allowedChars="1234567890"
         app:layout_constraintEnd_toEndOf="@+id/img_card_sign"
         app:layout_constraintTop_toBottomOf="@+id/view_card_top"
         app:mask="###" />

@@ -80,7 +80,7 @@ public class CardCVVFragment extends Fragment implements CardEditFragment, TextW
     @Override
     public void afterTextChanged(Editable editable) {
         if (isValid()) {
-            cardEditActivity.viewPager.setCurrentItem(cardEditActivity.viewPager.getCurrentItem() + 1);
+            cardEditActivity.goToCardHolderNameFragment();
         }
     }
 }

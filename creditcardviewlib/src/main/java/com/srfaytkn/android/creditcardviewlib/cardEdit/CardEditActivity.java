@@ -154,6 +154,19 @@ public class CardEditActivity extends AppCompatActivity implements ViewPager.OnP
         finish();
     }
 
+    public void goToExpiryDateFragment() {
+        viewPager.setCurrentItem(1);
+    }
+
+    public void goToCardCVVFragment() {
+        viewPager.setCurrentItem(2);
+
+    }
+
+    public void goToCardHolderNameFragment() {
+        viewPager.setCurrentItem(3);
+    }
+
     @Override
     public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
 

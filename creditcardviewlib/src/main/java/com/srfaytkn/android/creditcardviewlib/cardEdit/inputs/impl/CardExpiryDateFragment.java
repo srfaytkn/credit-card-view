@@ -99,7 +99,7 @@ public class CardExpiryDateFragment extends Fragment implements CardEditFragment
     @Override
     public void afterTextChanged(Editable editable) {
         if (isValid()) {
-            cardEditActivity.viewPager.setCurrentItem(cardEditActivity.viewPager.getCurrentItem() + 1);
+            cardEditActivity.goToCardCVVFragment();
         }
     }
 }

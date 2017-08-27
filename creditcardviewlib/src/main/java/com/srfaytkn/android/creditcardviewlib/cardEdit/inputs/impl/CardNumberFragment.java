@@ -83,7 +83,7 @@ public class CardNumberFragment extends Fragment implements CardEditFragment, Te
     @Override
     public void afterTextChanged(Editable editable) {
        if (isValid()){
-           cardEditActivity.viewPager.setCurrentItem(cardEditActivity.viewPager.getCurrentItem() + 1);
+           cardEditActivity.goToExpiryDateFragment();
        }
     }
 }
