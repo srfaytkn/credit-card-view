@@ -57,7 +57,7 @@
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="20sp"
-        app:allowedChars="1234567890"
+        app:allowedChars="1234567890*"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_chip"
         app:mask="#### #### #### ####" />
@@ -92,7 +92,7 @@
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="20sp"
-        app:allowedChars="1234567890"
+        app:allowedChars="1234567890*"
         app:layout_constraintStart_toEndOf="@+id/input_card_number"
         app:layout_constraintTop_toBottomOf="@+id/img_chip"
         app:mask="##/##" />

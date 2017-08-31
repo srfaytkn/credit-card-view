@@ -71,7 +71,7 @@
         android:textColor="@color/black"
         android:textColorHint="@color/black"
         android:textSize="20sp"
-        app:allowedChars="1234567890"
+        app:allowedChars="1234567890*"
         app:layout_constraintEnd_toEndOf="@+id/img_card_sign"
         app:layout_constraintTop_toBottomOf="@+id/view_card_top"
         app:mask="###" />

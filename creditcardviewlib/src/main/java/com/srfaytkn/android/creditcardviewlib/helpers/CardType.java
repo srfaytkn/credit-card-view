@@ -20,7 +20,7 @@ public class CardType {
 
     private static Pattern visaPattern = Pattern.compile("^4.{15}");
     private static Pattern masterPattern = Pattern.compile("^5.{15}");
-    private static Pattern maestroPattern = Pattern.compile("^(5018|5020|5038|6304|6759|6761|6763).{12}$");
+    private static Pattern maestroPattern = Pattern.compile("^(5018|5020|5038|6304|6759|6761|6763).{12}");
     private static Pattern amexPattern = Pattern.compile("^3[47].{13}$");
 
     public static CardDesign getCardDesign(String cardNumber) {
