@@ -18,18 +18,18 @@ public class CardType {
     public static final String CARD_TYPE_AMEX = "CARD_TYPE_A_EXPRESS";
     public static final String CARD_TYPE_UNDEFINED = "CARD_TYPE_UNDEFINED";
 
-    private static Pattern visaPattern = Pattern.compile("4\\d{15}");
-    private static Pattern masterPattern = Pattern.compile("5\\d{15}");
-    private static Pattern maestroPattern = Pattern.compile("^(5018|5020|5038|6304|6759|6761|6763)[0-9]{8,15}$");
-    private static Pattern amexPattern = Pattern.compile("^3[47][0-9]{13}$");
+    private static Pattern visaPattern = Pattern.compile("^4.{15}");
+    private static Pattern masterPattern = Pattern.compile("^5.{15}");
+    private static Pattern maestroPattern = Pattern.compile("^(5018|5020|5038|6304|6759|6761|6763).{12}$");
+    private static Pattern amexPattern = Pattern.compile("^3[47].{13}$");
 
     public static CardDesign getCardDesign(String cardNumber) {
         if (visaPattern.matcher(cardNumber).matches()) {
             return new CardDesign(CARD_TYPE_VISA);
-        } else if (masterPattern.matcher(cardNumber).matches()) {
-            return new CardDesign(CARD_TYPE_MASTER);
         } else if (maestroPattern.matcher(cardNumber).matches()) {
             return new CardDesign(CARD_TYPE_MAESTRO);
+        } else if (masterPattern.matcher(cardNumber).matches()) {
+            return new CardDesign(CARD_TYPE_MASTER);
         } else if (amexPattern.matcher(cardNumber).matches()) {
             return new CardDesign(CARD_TYPE_AMEX);
         } else {
